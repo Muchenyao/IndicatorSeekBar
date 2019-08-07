@@ -178,8 +178,6 @@ public class IndicatorSeekBar extends View {
     IndicatorSeekBar(Builder builder) {
         super(builder.context);
         this.mContext = builder.context;
-        int defaultPadding = SizeUtils.dp2px(mContext, 16);
-        setPadding(defaultPadding, getPaddingTop(), defaultPadding, getPaddingBottom());
         this.apply(builder);
         initParams();
     }
